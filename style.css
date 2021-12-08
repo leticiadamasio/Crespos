@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 *{
     margin:0;
     padding:0;
@@ -79,11 +79,13 @@ h1{
     color: white;  
     position: relative;
     font-weight: bold;
+    flex-wrap: wrap;
+    line-height: 100%;
 }
 .texto-1{
     width: 25vw;
     position: relative;
-    top:40vh;
+    top:44vh;
     left:15vw;
 }
 h2{
@@ -97,5 +99,211 @@ h2{
     width: 25vw;
     position: relative;
     top:50vh;
-    left:35vw;
+    left:34vw;
+}
+.container-purple{
+    background-color: #9767A9;
+    width:100%;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+    height: 21.5vw;
+    flex-wrap: wrap;
+
+}
+.container-purple h3{
+    font-family: 'Playfair Display', serif;
+    font-size:7vh;   
+    width: 45vw; 
+}
+.container-purple p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2vh;
+    width: 45vw;  
+}
+.container-white{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px black;
+}
+.container-white img{
+    height: 80vh;
+    width: 42vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.numerais{
+    font-family: 'Playfair Display', serif;
+    font-size: 7vh;
+    font-weight: 800;
+    padding-right: 0.75vw; 
+}
+.container-white h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 4vh;
+    font-weight: bolder;
+    position: relative;
+    left: 1.5vw;
+}
+.container-white p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    width: 27vw;
+    position: relative;
+    left: 1.5vw;
+    top: 2.5vh;
+}
+.container-conteúdo-1{
+    background-color:  #9767A9;
+    height: 58vh;
+    width: 30vw;
+    color: white;
+    position: relative;
+    bottom: 25vh;
+    left: 6.95vw;
+}
+.container-conteúdo-1 h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 4vh;
+    width: 20vw;
+    font-weight: bolder;
+    position: relative;
+    left: 1.5vw; 
+}
+.imagem-coroa{
+    position: relative;
+    bottom: 10vh;
+    left: 1vw;
+}
+.container-conteúdo-2{
+    background-color:  #9767A9;
+    height: 53vh;
+    width: 30vw;
+    color: white;
+    position: relative;
+    top: 15vh;
+    left: 8.95vw;
+}
+.imagem-repórter{
+    position: relative;
+    top: 35vh;
+    left: 3vw;
+    display: flex;
+}
+.container-conteúdo-3{
+    background-color:  #9767A9;
+    height: 40vh;
+    width: 30vw;
+    color: white;
+    position: relative;
+    bottom: 35vh;
+    left: 7.75vw;
+}
+.container-conteúdo-3 h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 4vh;
+    width: 16vw;
+    font-weight: bolder;
+    position: relative;
+    left: 1.5vw; 
+}
+.imagem-homem{
+    position: relative;
+    bottom: 10vh;
+    left: 2vw;
+}
+.container-conteúdo-4{
+    background-color:  #9767A9;
+    height: 45vh;
+    width: 30vw;
+    color: white;
+    position: relative;
+    top: 15vh;
+    left: 9vw;
+}
+.imagem-mulher{
+    position: relative;
+    top: 20vh;
+    left: 2.95vw;
+}
+.container-conteúdo-5{
+    background-color:  #9767A9;
+    height: 48vh;
+    width: 30vw;
+    color: white;
+    position: relative;
+    bottom: 47vh;
+    left: 9vw;
+}
+.imagem-mãe-filha{
+    position: relative;
+    bottom: 23.95vh;
+    left: 2.45vw;
+}
+.container-conteúdo-6{
+    background-color:  #9767A9;
+    height: 43vh;
+    width: 30vw;
+    color: white;
+    position: relative;
+    top: 15.95vh;
+    left: 9.25vw;
+}
+.imagem-shampoo{
+    position: relative;
+    top: 25.95vh;
+    left: 2.95vw;
+}
+.container-conteúdo-7{
+    background-color:  #9767A9;
+    height: 38vh;
+    width: 30vw;
+    color: white;
+    position: relative;
+    bottom: 41.75vh;
+    right: 16.5vw;
+}
+.imagem-cabelo-grisalho{
+    position: relative;
+    bottom: 19.5vh;
+    right: 22.95vw;
+}
+.imagem-cachinho{
+    width: 30vw;
+    position: relative;
+    bottom: 82vh;
+    left: 62vw;
+}
+footer{
+    background-color: #9767A9;
+    width:100%;
+    height: 15vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.p-footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    color: white;
+    width: 45vw;
+    position: relative;
+    top:4vh;
+    left: 7vw;
+}
+.p2-footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    color: white;
+    width: 75vw;
+    position: relative;
+    top: 4vh;
+    left: 7vw;
 }
