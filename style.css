@@ -4,8 +4,40 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: 'Montserrat', sans-serif;
     list-style:none;
+}
+.nav-header{
+    width: 100vw;
+    font-size: 2.25vh;
+    color: #9767A9;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    left: 5vw;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul{
+    position: relative;
+    left: 6vw;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buscar{
+    position: relative;
+    left: 10vw;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 input{
     background-image: url('imagens/Layer_3.png');
@@ -13,33 +45,49 @@ input{
     border: 2px solid #9767A9;
     border-radius: 50px;
     height: 5vh;
-    width: 13vw;
+    width: 12vw;
     background-position-y: center;
     background-position-x: 8px;
-
 }
-.nav-header{
-    font-size: 2.25vh;
-    color: #9767A9;
-}
-.ul-header{
+.redes-sociais{
+    width: 15%;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-   
+    justify-content: space-between;
 }
 li:hover{
-    cursor: pointer;
-    font-weight: 900;
+    cursor:pointer;
+    font-weight: bolder;
 }
-.cabeludo {
-    height:  121vh;
-    width: 140vw;
-    border: 3px solid violet ;
+.cabeludo{
+    display: flex;
+    height: 90vh;
+    background-size: 100vw;
+    background-repeat:no-repeat; 
+    background-image: url('imagens/cabeludo.png')
 }
-p{
+h1{
     font-family: 'Playfair Display', serif;
+    font-size: 10vh;
     color: white;  
     position: relative;
+    font-weight: bold;
+}
+.texto-1{
+    width: 25vw;
+    position: relative;
+    top:40vh;
+    left:15vw;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.2vh;
+    color: white;  
+    position: relative;
+    font-weight: lighter;
+}
+.texto-2{
+    width: 25vw;
+    position: relative;
+    top:50vh;
+    left:35vw;
 }
