@@ -5,6 +5,7 @@
     padding:0;
     box-sizing:border-box;
     list-style:none;
+    text-decoration: none;
 }
 .nav-header{
     width: 100%;
@@ -279,6 +280,12 @@ h2{
     position: relative;
     bottom: 82vh;
     left: 62vw;
+}
+.section-img {
+    width: 95%;
+    height: 100%;
+    border: solid 3px black;
+    display: flex;
 }
 footer{
     background-color: #9767A9;
