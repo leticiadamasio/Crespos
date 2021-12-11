@@ -7,6 +7,10 @@
     list-style:none;
     text-decoration: none;
 }
+/*Header*/
+.mobile-menu{
+    display:none;
+}
 .nav-header{
     width: 100%;
     height: 12vh;
@@ -25,7 +29,7 @@
     justify-content: space-between;
 
 }
-ul{
+.ul-desktop{
     position: relative;
     left: 6vw;
     width: 45%;
@@ -61,46 +65,45 @@ input{
 li{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.2vh;
-
+    height: fit-content;
 }
 li:hover{
     cursor:pointer;
     font-weight: bolder;
 }
+/*Main*/
+main{
+    width: 100%;
+    height: 100%;
+}
 .cabeludo{
     display: flex;
-    height: 90vh;
+    height: 85vh;
     background-size: 100%;
     background-repeat:no-repeat; 
     background-image: url('imagens/cabeludo.png')
 }
-h1{
+.texto-1{
     font-family: 'Playfair Display', serif;
     font-size: 10vh;
-    color: white;  
+    width: 25vw;
     position: relative;
+    top:41vh;
+    left:15vw;
+    color: white;  
     font-weight: bold;
     flex-wrap: wrap;
-    line-height: 100%;
-}
-.texto-1{
-    width: 25vw;
-    position: relative;
-    top:44vh;
-    left:15vw;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4.2vh;
-    color: white;  
-    position: relative;
-    font-weight: lighter;
+    line-height: 100%;   
 }
 .texto-2{
-    width: 25vw;
+    color: white;  
+    font-size: 4.2vh;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
-    top:50vh;
-    left:34vw;
+    font-weight: lighter;
+    width: 25vw;
+    top:28vh;
+    left:58vw;
 }
 .container-purple{
     background-color: #9767A9;
@@ -109,7 +112,7 @@ h2{
     display:flex;
     justify-content: space-evenly;
     padding-top: 5vh;
-    height: 21.5vw;
+    height: 50vh;
     flex-wrap: wrap;
 
 }
@@ -161,7 +164,7 @@ h2{
 }
 .container-conteúdo-1{
     background-color:  #9767A9;
-    height: 58vh;
+    height: 65vh;
     width: 30vw;
     color: white;
     position: relative;
@@ -300,12 +303,12 @@ h2{
     position: absolute;
     width: 15vw;
     left: 22.75vw;
-    top: 0.9vw;
+    bottom: 30.8vw;
 }
 .img-main-4{
     position: absolute;
     width: 15vw;
-    top: 38vh;
+    bottom: 28vh;
     left: 22.75vw;
 }
 .img-main-5{
@@ -359,11 +362,27 @@ h2{
     width: 14vw;
 }
 .img-6{
+    height:26vh;
+    width: 14vw;
+}
+.img-7{
     height:98vh;
     width: 22vw;
 }
+.img-8{
+    height:26vh;
+    width: 14vw;
+}
+.img-9{
+    height: 70vh;
+    width: 14vw;
+}
 
-footer{
+/*Footer*/
+.mobile-footer{
+    display: none;
+}
+.footer{
     background-color: #9767A9;
     width:100%;
     height: 15vh;
@@ -410,5 +429,340 @@ p img {
     display: flex;
     align-items: center;
 }
+/*-------mobile-------*/
+@media(max-width:420px){
+.buscar{
+    display: none;
+}
+input{
+    display: none;
+}
+.ul-desktop{
+    display: none;
+}
+.logo{
+    left: 40vw;
+    width: 15%;
+}
+.logo img{
+  height: 6vh;
+  width: 24vw;
+}
+.mobile-menu{
+    display:block;
+}
+.nav-menu{
+    background-color: #9767A9;
+    width:112px;
+    position:absolute;
+    bottom:-39.65vh;
+    left:-170px;
+    transition: all 0.5s;
+}
+.nav-menu ul{
+    position: absolute;
+    top:8vh;
+    width: 100%;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(170px);
+}
+a{  
+    height:30px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    padding-left:20px;
+    color:white;
+    text-transform: capitalize;
+    background-color: #9767A9;
+}
+a:hover{
+    background-color: #AC95BB;
+}
+label{
+    padding:0.1vw;
+    position: absolute;
+    z-index: 1;
+}
+.nav-header{
+    height: 8vh;
+}
+.cabeludo{
+    background-size: 225% 75%;
+    background-position: 32% 0%;
+}
+.texto-1{
+    left:8vw;
+    top:6vh;
+    width: 50vw;
+    font-size: 9vh;
+    line-height: 125%;
 
-   
+}
+.texto-2{
+    width: 58vw;
+    left:10vw;
+    top:7.95vh;
+    font-size: 3.2vh;  
+}
+.container-purple{
+    margin-top: -22.4vh;
+    height: 50vh;
+    display: block;
+}
+.container-purple h3{
+    position:relative;
+    bottom:4vh;
+    left: 8vh;
+    font-size: 3.5vh;
+    width: 75vw; 
+}
+.container-purple p{
+    font-size: 2.5vh;
+    width: 80%; 
+    position: relative;
+    left: 12vw;
+    bottom:3.25vh;
+}
+.container-white img{
+    width: 86vw;
+    height: 55vh;
+}
+.container-white h4{
+    width: 65%;
+    position: relative;
+    left: 8vh;
+}
+.container-white p{
+    width:80%;
+    position: relative;
+    left: 8vh;
+}
+.imagem-coroa{
+    position: relative;
+    top:2vh;
+    left:7vw;
+}
+.container-conteúdo-1{
+    height: 65vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+}
+.imagem-repórter{
+    position: relative;
+    top:-23vh;
+    left:7vw;
+}
+.container-conteúdo-2{
+    height: 50vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-homem{
+    position: relative;
+    bottom:33vh;
+    left: 5vh;
+}
+.container-conteúdo-3{
+    height: 45vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-mulher{
+    position: relative;
+    top:-32.95vh;
+    left: 5vh;
+}
+.container-conteúdo-4{
+    height: 50vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-mãe-filha{
+    position: relative;
+    top:-32.95vh;
+    left: 5vh;
+}
+.container-conteúdo-5{
+    height: 65vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-shampoo{
+    position: relative;
+    top:-32.95vh;
+    left: 5vh;
+}
+.container-conteúdo-6{
+    height: 52vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-cabelo-grisalho{
+    position: relative;
+    top:-32.95vh;
+    left: 5vh;
+}
+.container-conteúdo-7{
+    height: 50vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-cachinho{
+    width: 60vw;
+    position: relative;
+    bottom: 25vh;
+    left: 18vw;
+}
+.section-img {
+    width: 90.95%;
+    height: 100%;
+    top: 865vh;
+}
+.img-1 {
+    height:43vh;
+    width:41vw;
+}
+.img-2 {
+    height: 32vh;
+    width:90vw;
+}
+.img-3{
+    height: 15vh;
+    width: 22vw;
+}
+.img-4{
+    height: 26vh;
+    width: 46.2vw;
+}
+.img-5{
+    height: 44vh;
+    width: 43vw;
+}
+.img-6{
+    height:14vh;
+    width: 22vw;
+}
+.img-7{
+    height:26vh;
+    width: 21vw;
+}
+.img-8{
+    height:14vh;
+    width: 22vw;
+}
+.img-9{
+    height:27vh;
+    width: 21vw;
+}
+.img-main-1{
+    position: absolute;
+    top:-0.4vh;
+}
+.img-main-2{
+    position: absolute;
+    top: 45vh;
+}
+.img-main-3{
+    position: absolute;
+    width: 15vw;
+    left: 44vw;
+    top:-45.4vh;
+}
+.img-main-4{
+    position: absolute;
+    width: 15vw;
+    top: -45.4vh;
+    left: 66vw;
+}
+.img-main-5{
+    position: absolute;
+    top: 17vh;
+    left:-22vw;
+}
+.img-main-6{
+    position: absolute;
+    left:-18.95vw;
+    top: 80vh;
+}
+.img-main-7{
+    position: absolute;
+    top: 110vh;
+    left: -66vw;
+}
+.img-main-8{
+    position: absolute;
+    bottom:-0.1;
+    left:-25.5vh
+}
+.img-main-9{
+    position: absolute;
+    top: 110vh;
+    left: -43vw;
+}
+.img-main-10{
+    position: absolute;
+    top: 80vh;
+    left:-27.5vh
+}
+.footer{
+    display: none;
+}
+.mobile-footer{
+display: flex;
+}
+.redes-mobile{
+    width: 55%;
+    position: relative;
+    top:105vh;
+    left:4vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navegação-mobile{
+    position: relative;
+    top:105vh;
+    left:15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45vw;
+}
+
+.mobile-footer p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.text{
+    position: relative;
+    top:117vh;
+    right:30vh;
+    width: 100%;
+    height: 100%;
+}
+.p-1{
+    font-size: 2.2vh;
+    width:90vw;
+}
+.p-2{
+    font-size: 1.5vh;
+    width:100%;
+}
+}
