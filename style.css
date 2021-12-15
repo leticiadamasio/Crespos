@@ -881,196 +881,146 @@ label img{
     width: 86vw;
     height: 55vh;
 }
-    .container-white h4{
-        width: 75%;
-        position: relative;
-        left: 6vh;
-    }
-    .container-white p{
-        width:80%;
-        position: relative;
-        left: 6vh;
-    }
-    .imagem-coroa{
-        position: relative;
-        top:2vh;
-        left:7vw;
-    }
-    .container-conteúdo-1{
-        height: 75vh;
-        width:100vw;
-        position: relative;
-        left:-0.1vw;
-    }
-    .imagem-repórter{
-        position: relative;
-        top:-23vh;
-        left:7vw;
-    }
-    .container-conteúdo-2{
-        height: 65vh;
-        width:100vw;
-        position: relative;
-        left:-0.1vw;
-        top:-35vh;
-    }
-    .imagem-homem{
-        position: relative;
-        bottom:33vh;
-        left: 5vh;
-    }
-    .container-conteúdo-3{
-        height: 45vh;
-        width:100vw;
-        position: relative;
-        left:-0.1vw;
-        top:-35vh;
-    }
-    .imagem-mulher{
-        position: relative;
-        top:-32.95vh;
-        left: 5vh;
-    }
-    .container-conteúdo-4{
-        height: 60vh;
-        width:100vw;
-        position: relative;
-        left:-0.1vw;
-        top:-35vh;
-    }
-    .imagem-mãe-filha{
-        position: relative;
-        top:-32.95vh;
-        left: 5vh;
-    }
-    .container-conteúdo-5{
-        height: 60vh;
-        width:100vw;
-        position: relative;
-        left:-0.1vw;
-        top:-35vh;
-    }
-    .imagem-shampoo{
-        position: relative;
-        top:-32.95vh;
-        left: 5vh;
-    }
-    .container-conteúdo-6{
-        height: 50vh;
-        width:100vw;
-        position: relative;
-        left:-0.1vw;
-        top:-35vh;
-    }
-    .imagem-cabelo-grisalho{
-        position: relative;
-        top:-32.95vh;
-        left: 5vh;
-    }
-    .container-conteúdo-7{
-        height: 45vh;
-        width:100vw;
-        position: relative;
-        left:-0.1vw;
-        top:-35vh;
-    }
-    .imagem-cachinho{
-        width: 60vw;
-        position: relative;
-        bottom: 29vh;
-        left: 20vw;
-    }
-    .section-img {
-        width: 90.95%;
-        height: 100%;
-        top: 885vh;
-    }
-    .img-1 {
-        height:43vh;
-        width:41vw;
-    }
-    .img-2 {
-        height: 32vh;
-        width:92vw;
-    }
-    .img-3{
-        height: 15vh;
-        width: 22vw;
-    }
-    .img-4{
-        height: 26vh;
-        width: 46.5vw;
-    }
-    .img-5{
-        height: 44vh;
-        width: 43vw;
-    }
-    .img-6{
-        height:14vh;
-        width: 22vw;
-    }
-    .img-7{
-        height:28vh;
-        width: 21vw;
-    }
-    .img-8{
-        height:14vh;
-        width: 22vw;
-    }
-    .img-9{
-        height:28vh;
-        width: 21vw;
-    }
-    .img-main-1{
-        position: absolute;
-        top:-0.4vh;
-    }
-    .img-main-2{
-        position: absolute;
-        top: 45vh;
-    }
-    .img-main-3{
-        position: absolute;
-        width: 15vw;
-        left: 44vw;
-        top:-45.4vh;
-    }
-    .img-main-4{
-        position: absolute;
-        width: 15vw;
-        top: -45.4vh;
-        left: 68vw;
-    }
-    .img-main-5{
-        position: absolute;
-        top: 17vh;
-        left:-23vw;
-    }
-    .img-main-6{
-        position: absolute;
-        left:-18.95vw;
-        top: 80vh;
-    }
-    .img-main-7{
-        position: absolute;
-        top: 110vh;
-        left: -66vw;
-    }
-    .img-main-8{
-        position: absolute;
-        top: 80.09vh;
-        left:-37.5vh
-    }
-    .img-main-9{
-        position: absolute;
-        top: 110vh;
-        left: -43vw;
-    }
-    .img-main-10{
-        position: absolute;
-        top: 80.09vh;
-        left:-23.75vh
-    }
+.container-white h4{
+    width: 85%;
+    position: relative;
+    left: 4vh;
+}
+.container-white p{
+    width:80%;
+    position: relative;
+    left: 4vh;
+}
+.imagem-coroa{
+    position: relative;
+    top:2vh;
+    left:7.25vw;
+}
+.container-conteúdo-1{
+    height: 75vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+}
+.imagem-repórter{
+    position: relative;
+    top:-23vh;
+    left:7.25vw;
+}
+.container-conteúdo-2{
+    height: 70vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-homem{
+    position: relative;
+    bottom:33vh;
+    left: 3.25vh;
+}
+.container-conteúdo-3{
+    height: 53vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-mulher{
+    position: relative;
+    top:-32.95vh;
+    left: 3.25vh;
+}
+.container-conteúdo-4{
+    height: 62vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-mãe-filha{
+    position: relative;
+    top:-32.95vh;
+    left: 3.25vh;
+}
+.container-conteúdo-5{
+    height: 72vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-shampoo{
+    position: relative;
+    top:-32.95vh;
+    left: 3.25vh;
+}
+.container-conteúdo-6{
+    height: 55vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-cabelo-grisalho{
+    position: relative;
+    top:-32.95vh;
+    left: 3.25vh;
+}
+.container-conteúdo-7{
+    height: 50vh;
+    width:100vw;
+    position: relative;
+    left:-0.1vw;
+    top:-35vh;
+}
+.imagem-cachinho{
+    width: 60vw;
+    position: relative;
+    bottom: 29vh;
+    left: 20vw;
+}
+.section-img {
+    width: 90.95%;
+    height: 100%;
+    top: 940vh;
+}
+.img-6{
+    height:14vh;
+    width: 23.5vw;
+}
+.img-7{
+    height:28vh;
+    width: 23vw;
+}
+.img-8{
+    height: 14vh;
+    width: 23.5vw;
+}
+.img-9{
+    height: 28vh;
+    width: 23vw;
+}
+.img-main-7{
+    position: absolute;
+    top: 110vh;
+    left: -68.5vw;
+}
+.img-main-8{
+    position: absolute;
+    top: 80.09vh;
+    left:-33.5vh
+}
+.img-main-9{
+    position: absolute;
+    top: 110vh;
+    left: -43.5vw;
+}
+.img-main-10{
+    position: absolute;
+    top: 80.09vh;
+    left:-21.25vh
+}
     .footer{
         display: none;
     }
@@ -1081,41 +1031,22 @@ label img{
         position: relative;
         top: 100vh;
     }
-    .redes-mobile{
-        position: absolute;
-        top: 1vh;
-        left:4vh;
-        display: flex;
-        width: 45vw;
-        justify-content: space-evenly;
-    }
-    .navegação-mobile{
-        position: absolute;
-        top: 2vh;
-        left:35vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 25vw;
-    }
-    
-    .mobile-footer p{
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-    }
-    .text{
-        position: absolute;
-        top:10vh;
-        left:6vh;
-        width: 100%;
-        height: 100%;
-    }
-    .p-1{
-        font-size: 2.2vh;
-        width:90vw;
-    }
-    .p-2{
-        font-size: 1.5vh;
-        width:100%;
-    }
-    }
+.redes-mobile{
+    position: absolute;
+    top: 1vh;
+    left:0.25vh;
+}
+.navegação-mobile{
+    position: absolute;
+    top: 2vh;
+    left:31vh;
+        
+}
+.text{
+    position: absolute;
+    top:8vh;
+    left:2.25vh;
+    width: 100%;
+    height: 100%;
+}
+}
