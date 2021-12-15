@@ -553,7 +553,7 @@ label img{
     left:7vw;
 }
 .container-conteúdo-1{
-    height: 80vh;
+    height: 75vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
@@ -775,7 +775,7 @@ label img{
     width:100%;
 }
 }
-@media(min-height:855px) {
+@media(min-height:720px) {
 .buscar{
     display: none;
 }
@@ -897,7 +897,7 @@ label img{
     left:7.25vw;
 }
 .container-conteúdo-1{
-    height: 85vh;
+    height: 95vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
