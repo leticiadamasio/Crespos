@@ -775,7 +775,7 @@ label img{
     width:100%;
 }
 }
-@media(max-height:955px) {
+@media(max-height:915px) {
 .buscar{
     display: none;
 }
@@ -897,7 +897,7 @@ label img{
     left:7.25vw;
 }
 .container-conteúdo-1{
-    height: 75vh;
+    height: 80vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
@@ -1024,21 +1024,21 @@ label img{
     .footer{
         display: none;
     }
-    .mobile-footer{
-        display: flex;
-        width: 98vw;
-        height: 10vh;
-        position: relative;
-        top: 100vh;
+.mobile-footer{
+    display: flex;
+    width: 98vw;
+    height: 10vh;
+    position: relative;
+    top: 100vh;
     }
 .redes-mobile{
     position: absolute;
-    top: 1vh;
+    top: 6vh;
     left:0.25vh;
 }
 .navegação-mobile{
     position: absolute;
-    top: 2vh;
+    top: 7vh;
     left:31vh;
         
 }
