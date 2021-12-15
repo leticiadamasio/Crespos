@@ -455,7 +455,7 @@ input{
 }
 .nav-menu{
     background-color: #9767A9;
-    width:135px;
+    width:119px;
     position:absolute;
     bottom:-34.95vh;
     left:-170px;
@@ -516,13 +516,13 @@ label img{
 }
 .container-purple{
     margin-top: -22.4vh;
-    height: 55vh;
+    height: 100%;
     display: block;
 }
 .container-purple h3{
     position:relative;
     bottom:4vh;
-    left: 7vh;
+    left: 5vh;
     font-size: 3.5vh;
     width: 86%; 
 }
@@ -530,7 +530,7 @@ label img{
     font-size: 2.5vh;
     width: 80%; 
     position: relative;
-    left: 12vw;
+    left: 8vw;
     bottom:3.25vh;
 }
 .container-white img{
@@ -540,12 +540,12 @@ label img{
 .container-white h4{
     width: 75%;
     position: relative;
-    left: 8vh;
+    left: 6vh;
 }
 .container-white p{
     width:80%;
     position: relative;
-    left: 8vh;
+    left: 6vh;
 }
 .imagem-coroa{
     position: relative;
@@ -553,7 +553,7 @@ label img{
     left:7vw;
 }
 .container-conteúdo-1{
-    height: 68vh;
+    height: 75vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
