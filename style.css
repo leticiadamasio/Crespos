@@ -775,7 +775,7 @@ label img{
     width:100%;
 }
 }
-@media(max-height:840px){
+@media(max-height:855px){
 .buscar{
     display: none;
 }
@@ -802,7 +802,7 @@ input{
     background-color: #9767A9;
     width:140px;
     position:absolute;
-    bottom:-29.35vh;
+    bottom:-29vh;
     left:-170px;
     transition: all 0.5s;
     }
@@ -857,30 +857,30 @@ label img{
     left:10vw;
     top:13.5vh;
     font-size: 2.6vh;  
-    }
-    .container-purple{
-        margin-top: -22.4vh;
-        height: 100%;
-        display: block;
-    }
-    .container-purple h3{
-        position:relative;
-        bottom:4vh;
-        left: 5vh;
-        font-size: 3.5vh;
-        width: 86%; 
-    }
-    .container-purple p{
-        font-size: 2.5vh;
-        width: 80%; 
-        position: relative;
-        left: 8vw;
-        bottom:3.25vh;
-    }
-    .container-white img{
-        width: 86vw;
-        height: 55vh;
-    }
+}
+.container-purple{
+    margin-top: -22.4vh;
+    height: 100%;
+    display: block;
+}
+.container-purple h3{
+    position:relative;
+    bottom:4vh;
+    left: 4vh;
+    font-size: 3.5vh;
+    width: 86%; 
+}
+.container-purple p{
+    font-size: 2.5vh;
+    width: 80%; 
+    position: relative;
+    left: 8vw;
+    bottom:3.25vh;
+}
+.container-white img{
+    width: 86vw;
+    height: 55vh;
+}
     .container-white h4{
         width: 75%;
         position: relative;
