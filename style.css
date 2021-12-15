@@ -775,7 +775,7 @@ label img{
     width:100%;
 }
 }
-@media(max-height:915px) {
+@media(min-height:855px) {
 .buscar{
     display: none;
 }
