@@ -303,7 +303,7 @@ main{
     position: absolute;
     width: 15vw;
     left: 22.75vw;
-    bottom: 30.8vw;
+    bottom: 29.25vw;
 }
 .img-main-4{
     position: absolute;
@@ -319,7 +319,7 @@ main{
 .img-main-6{
     position: absolute;
     left: 14.75vw;
-    bottom: 0.09vh;
+    bottom: 0.01vh;
 }
 .img-main-7{
     position: absolute;
@@ -342,7 +342,7 @@ main{
     left: 52.65vw;
 }
 .img-1 {
-    height:69vh;
+    height:70vh;
     width:22vw;
 }
 .img-2 {
@@ -450,12 +450,14 @@ input{
 }
 .mobile-menu{
     display:block;
+    position: relative;
+    z-index: 1;
 }
 .nav-menu{
     background-color: #9767A9;
-    width:112px;
+    width:135px;
     position:absolute;
-    bottom:-39.65vh;
+    bottom:-34.95vh;
     left:-170px;
     transition: all 0.5s;
 }
@@ -488,6 +490,9 @@ label{
     position: absolute;
     z-index: 1;
 }
+label img{
+    height: 8vh;
+}
 .nav-header{
     height: 8vh;
 }
@@ -497,29 +502,29 @@ label{
 }
 .texto-1{
     left:8vw;
-    top:6vh;
+    top:7vh;
     width: 50vw;
-    font-size: 9vh;
+    font-size: 8vh;
     line-height: 125%;
 
 }
 .texto-2{
     width: 58vw;
     left:10vw;
-    top:7.95vh;
-    font-size: 3.2vh;  
+    top:10.85vh;
+    font-size: 2.8vh;  
 }
 .container-purple{
     margin-top: -22.4vh;
-    height: 50vh;
+    height: 55vh;
     display: block;
 }
 .container-purple h3{
     position:relative;
     bottom:4vh;
-    left: 8vh;
+    left: 7vh;
     font-size: 3.5vh;
-    width: 75vw; 
+    width: 86%; 
 }
 .container-purple p{
     font-size: 2.5vh;
@@ -533,7 +538,7 @@ label{
     height: 55vh;
 }
 .container-white h4{
-    width: 65%;
+    width: 75%;
     position: relative;
     left: 8vh;
 }
@@ -548,7 +553,7 @@ label{
     left:7vw;
 }
 .container-conteúdo-1{
-    height: 65vh;
+    height: 68vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
@@ -559,7 +564,7 @@ label{
     left:7vw;
 }
 .container-conteúdo-2{
-    height: 50vh;
+    height: 65vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
@@ -583,7 +588,7 @@ label{
     left: 5vh;
 }
 .container-conteúdo-4{
-    height: 50vh;
+    height: 60vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
@@ -595,7 +600,7 @@ label{
     left: 5vh;
 }
 .container-conteúdo-5{
-    height: 65vh;
+    height: 60vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
@@ -607,7 +612,7 @@ label{
     left: 5vh;
 }
 .container-conteúdo-6{
-    height: 52vh;
+    height: 50vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
@@ -619,7 +624,7 @@ label{
     left: 5vh;
 }
 .container-conteúdo-7{
-    height: 50vh;
+    height: 45vh;
     width:100vw;
     position: relative;
     left:-0.1vw;
@@ -628,13 +633,13 @@ label{
 .imagem-cachinho{
     width: 60vw;
     position: relative;
-    bottom: 25vh;
-    left: 18vw;
+    bottom: 29vh;
+    left: 20vw;
 }
 .section-img {
     width: 90.95%;
     height: 100%;
-    top: 865vh;
+    top: 885vh;
 }
 .img-1 {
     height:43vh;
@@ -642,7 +647,7 @@ label{
 }
 .img-2 {
     height: 32vh;
-    width:90vw;
+    width:92vw;
 }
 .img-3{
     height: 15vh;
@@ -650,7 +655,7 @@ label{
 }
 .img-4{
     height: 26vh;
-    width: 46.2vw;
+    width: 46.5vw;
 }
 .img-5{
     height: 44vh;
@@ -661,7 +666,7 @@ label{
     width: 22vw;
 }
 .img-7{
-    height:26vh;
+    height:28vh;
     width: 21vw;
 }
 .img-8{
@@ -669,7 +674,7 @@ label{
     width: 22vw;
 }
 .img-9{
-    height:27vh;
+    height:28vh;
     width: 21vw;
 }
 .img-main-1{
@@ -690,12 +695,12 @@ label{
     position: absolute;
     width: 15vw;
     top: -45.4vh;
-    left: 66vw;
+    left: 68vw;
 }
 .img-main-5{
     position: absolute;
     top: 17vh;
-    left:-22vw;
+    left:-23vw;
 }
 .img-main-6{
     position: absolute;
@@ -709,8 +714,8 @@ label{
 }
 .img-main-8{
     position: absolute;
-    bottom:-0.1;
-    left:-25.5vh
+    top: 80.09vh;
+    left:-37.5vh
 }
 .img-main-9{
     position: absolute;
@@ -719,17 +724,17 @@ label{
 }
 .img-main-10{
     position: absolute;
-    top: 80vh;
-    left:-27.5vh
+    top: 80.09vh;
+    left:-23.75vh
 }
 .footer{
     display: none;
 }
 .mobile-footer{
-display: flex;
+    display: flex;
 }
 .redes-mobile{
-    width: 55%;
+    width: 75vw;
     position: relative;
     top:105vh;
     left:4vh;
@@ -739,7 +744,7 @@ display: flex;
 .navegação-mobile{
     position: relative;
     top:105vh;
-    left:15vh;
+    left:18vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -752,8 +757,8 @@ display: flex;
 }
 .text{
     position: relative;
-    top:117vh;
-    right:30vh;
+    top:119vh;
+    right:25vh;
     width: 100%;
     height: 100%;
 }
